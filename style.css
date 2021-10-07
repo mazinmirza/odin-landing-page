@@ -1,0 +1,176 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 0 ;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 32px;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1 {
+    padding: 0;
+    margin: 0 0 20px 0;
+    font-weight: 1000;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.top-container {
+    background-color: #1F2937;
+  
+    
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 16px;
+}
+
+.top-info-and-image {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 36px 0px;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937;
+}
+
+img {
+    max-width: 100px;
+    height: auto;
+}
+
+.top-info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 500px;
+}
+
+.top-subinfo {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100px;
+    background-color: #3882F6;
+    border-radius: 25px;
+    font-weight: 700;
+    color: #F9FAF8;
+    padding: 8px;
+    height: 60px;
+    width: auto;
+    flex-shrink: 0;
+    margin: 16px;
+}
+
+.item-containers {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.item {
+    max-width: 200px;
+}
+
+.top-middle {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inspiringtext {
+    font-size: 26px;
+    font-style: italic;
+    color: 1F2937;
+    max-width: 1000px;
+    text-align: center;
+}
+
+.thortext {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700px;
+    margin-left: auto;
+    margin-right: 500px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    border: 25px;
+    margin: 26px;
+    
+}
+
+.bottom-container {
+    background-color: #3882F6;
+    padding: 16px;
+    display: flex;
+    width: 800px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bottom-container-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    font-size: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+}
+
+.footer-text {
+    color: #E5E7EB;
+}
+
+.call-to-action-text {
+    font-size: 700;
+    color: #E5E7EB;
+}
+
+.sign-up-text {
+    color: #E5E7EB
+}
